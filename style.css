@@ -1,0 +1,204 @@
+.grid1{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.black{
+    background-color: black;
+    height: 800px;
+}
+.art-gallery {
+    font-family: 'Big Shoulders Display', cursive;
+    position: absolute;
+    text-transform: uppercase;
+    top: 267px; /* Center vertically */
+    left: 375px; /* Center horizontally */
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 72px; /* Adjust font size as needed */
+    font-weight: bold;
+    font-style: normal;
+    color: white;
+    line-height: 155px;
+    width: 506px;
+
+}
+.art-gallery span {
+color: black;
+}
+.img p{
+    font-family: 'Outfit', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: 32px;
+    text-align: left;
+}
+.img-container {
+    position: relative;
+  }
+  
+  .text-block {
+    position: absolute;
+    bottom: 450px;
+    left: 462px;
+    width: 317px;
+    right:200px;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+  button span {
+    background-color:  #D5966C;
+    display: grid;
+    position: absolute;
+    right: 0;
+    place-items: center;
+    width: 3rem;
+    height: 100%;
+  }
+  button span:hover{
+    background-color: black;
+  }
+
+  button {
+    top: 100px;
+    cursor: pointer;
+    max-width: 320px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    padding: 0.875rem 72px 0.875rem 1.75rem;
+    background-color: black;
+    color: white;
+    line-height: 1.25rem;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    align-items: center;
+    gap: 0.75rem;
+    border: none;
+  }
+  button:hover {
+    background-color: #D5966C;
+  }
+  button:hover span{
+    background-color: black;
+  }
+
+  .container {
+    margin-top: 3in;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     height: 100vh;/* Ensure the container takes the full viewport height */
+}
+
+/* Define the grid container */
+.grid2{
+    display: grid;
+    gap:5px 5px;
+    margin-top: 30px;
+    margin-left: 150px;
+    grid-template-columns: 463px 500px ; /* Two columns */
+    grid-template-rows: auto; /* Three rows */
+    gap: 10px; /* Gap between grid items */
+}
+.grid3{
+    display: grid;
+    margin-top: 30px;
+    margin-left: 150px;
+    grid-template-columns: 650px 443px; /* Two columns */
+    grid-template-rows: 330px 380px; /* Three rows */
+    gap: 10px; /* Gap between grid items */
+}
+
+/* Spanning grid items */
+.span-2 {
+    grid-row: span 2; /* Spans 2 rows */
+}
+
+.span-1 {
+    grid-row: span 1; /* Spans 1 row */
+   
+}
+.heading1{
+    text-align: left;
+    width: 290px;
+}
+.heading1 h1{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 60px; /* 100% */
+    text-transform: uppercase;
+}
+.heading1 p{
+    font-family: 'Outfit', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: 32px;
+}
+.heading2{
+    text-align: left;
+    color: white;
+    padding-left: 25px;
+    background-color: black;
+}
+.heading2 h1{
+font-family: 'Big Shoulders Display', cursive;
+font-size: 60px;
+font-style: normal;
+font-weight: 900;
+line-height: 60px; /* 100% */
+text-transform: uppercase;
+}
+.heading2 p{
+    font-family: 'Outfit', sans-serif;
+font-size: 22px;
+font-style: normal;
+font-weight: 300;
+line-height: 32px
+}
+footer{
+    margin-top: 50px;
+    background-color: black;
+    height: 244px;
+}
+/* Define the grid container */
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Three columns with equal width */
+    gap: 10px; /* Gap between grid items */
+}
+.art-gallery-icon{
+    margin-left: 130px;
+    height: 58px;
+    width: 160px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 85px;
+}
+.footer-text{
+    padding: 10px;
+    text-align: left;
+    width: 380px;
+    color: white;
+    margin-top: 70px;
+}
+.social-icons{
+    padding: 10px;
+    text-align: center;
+    margin-top: 85px;
+}
+.social-icons img{
+    max-width: 100%; /* Ensure images don't exceed container width */
+    height: auto; /* Maintain aspect ratio */
+    display: inline; /* Remove extra space below inline images */
+    margin: 5px;
+}
+.social-icons img:hover{
+  background-color: #D5966C;
+}
